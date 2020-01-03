@@ -7,13 +7,13 @@
     android:orientation="vertical"
     tools:context="edu.tdt.appstudent2.actitities.tkb.TkbActivity">
 
-    <android.support.design.widget.AppBarLayout
+    <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appBarLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:elevation="0dp">
 
-        <android.support.v7.widget.Toolbar
+        <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
@@ -31,7 +31,7 @@
                 android:layout_height="match_parent"
                 android:orientation="horizontal">
 
-                <android.support.v7.widget.AppCompatImageButton
+                <androidx.appcompat.widget.AppCompatImageButton
                     android:id="@+id/btnBack"
                     android:layout_width="52dp"
                     android:layout_height="match_parent"
@@ -75,7 +75,7 @@
                     </com.balysv.materialripple.MaterialRippleLayout>
                 </LinearLayout>
 
-                <android.support.v7.widget.AppCompatImageButton
+                <androidx.appcompat.widget.AppCompatImageButton
                     android:id="@+id/btnDefault"
                     android:layout_width="52dp"
                     android:layout_height="match_parent"
@@ -85,7 +85,7 @@
                     android:background="@drawable/selector_light_theme"
                     android:src="@drawable/ic_favorite_border_black_24dp" />
 
-                <android.support.v7.widget.AppCompatImageButton
+                <androidx.appcompat.widget.AppCompatImageButton
                     android:id="@+id/btnReload"
                     android:layout_width="52dp"
                     android:layout_height="match_parent"
@@ -94,8 +94,8 @@
                     android:background="@drawable/selector_light_theme"
                     android:src="@drawable/ic_autorenew_black_24dp" />
             </LinearLayout>
-        </android.support.v7.widget.Toolbar>
-    </android.support.design.widget.AppBarLayout>
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -111,10 +111,10 @@
             app:msv_loadingView="@layout/state_loading"
             app:msv_viewState="content">
 
-            <android.support.v4.view.ViewPager
+            <androidx.viewpager.widget.ViewPager
                 android:id="@+id/viewpaper"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"></android.support.v4.view.ViewPager>
+                android:layout_height="match_parent"></androidx.viewpager.widget.ViewPager>
         </com.kennyc.view.MultiStateView>
 
     </RelativeLayout>

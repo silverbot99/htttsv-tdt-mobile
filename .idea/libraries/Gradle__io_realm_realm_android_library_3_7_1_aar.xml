@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: io.realm:realm-android-library:3.7.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a907739ed88ece29dfeef0927b308bb7/jetified-realm-android-library-3.7.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a907739ed88ece29dfeef0927b308bb7/jetified-realm-android-library-3.7.1/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.realm/realm-android-library/3.7.1/c1be6ea2cf8959b4000e9c3137f9ced07bcc9821/realm-android-library-3.7.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.realm/realm-android-library/3.7.1/90d73797d8eecdfc01cb63b9cb0d9f3b7d334bcb/realm-android-library-3.7.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

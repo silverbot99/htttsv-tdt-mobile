@@ -34,7 +34,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <android.support.design.widget.TextInputLayout
+                <com.google.android.material.textfield.TextInputLayout
                     android:id="@+id/input_layout_name"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
@@ -47,13 +47,13 @@
                         android:singleLine="true"
                         android:textStyle="bold"
                         android:hint="@string/dangnhap_edt_user" />
-                </android.support.design.widget.TextInputLayout>
+                </com.google.android.material.textfield.TextInputLayout>
 
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
-                    <android.support.design.widget.TextInputLayout
+                    <com.google.android.material.textfield.TextInputLayout
                         android:id="@+id/input_layout_password"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content">
@@ -65,7 +65,7 @@
                             android:singleLine="true"
                             android:textStyle="bold"
                             android:hint="@string/dangnhap_edt_pass" />
-                    </android.support.design.widget.TextInputLayout>
+                    </com.google.android.material.textfield.TextInputLayout>
 
                     <com.balysv.materialripple.MaterialRippleLayout
                         android:layout_width="wrap_content"

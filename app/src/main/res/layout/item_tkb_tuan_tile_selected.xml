@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         app:mrl_rippleColor="@color/materialRipple">
 
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:cardUseCompatPadding="true"
@@ -43,6 +43,6 @@
                     android:textColor="@color/white"
                     android:text="12/8" />
             </LinearLayout>
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
     </com.balysv.materialripple.MaterialRippleLayout>
 </LinearLayout>

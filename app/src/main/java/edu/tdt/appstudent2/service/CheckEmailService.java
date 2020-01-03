@@ -10,8 +10,7 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.AsyncTask;
 import android.os.Build;
-import android.support.v4.app.NotificationCompat;
-import android.util.Log;
+import androidx.core.app.NotificationCompat;
 
 import com.sun.mail.imap.IMAPFolder;
 
@@ -31,7 +30,6 @@ import edu.tdt.appstudent2.actitities.email.EmailActivity;
 import edu.tdt.appstudent2.models.User;
 import edu.tdt.appstudent2.models.email.EmailItem;
 import edu.tdt.appstudent2.models.email.EmailPageSave;
-import edu.tdt.appstudent2.models.thongbao.ThongbaoItem;
 import edu.tdt.appstudent2.utils.Util;
 import io.realm.Realm;
 

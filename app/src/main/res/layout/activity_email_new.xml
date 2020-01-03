@@ -12,13 +12,13 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <android.support.design.widget.AppBarLayout
+        <com.google.android.material.appbar.AppBarLayout
             android:id="@+id/appBarLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:elevation="0dp">
 
-            <android.support.v7.widget.Toolbar
+            <androidx.appcompat.widget.Toolbar
                 android:id="@+id/toolbar"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
@@ -36,7 +36,7 @@
                     android:layout_height="match_parent"
                     android:orientation="horizontal">
 
-                    <android.support.v7.widget.AppCompatImageButton
+                    <androidx.appcompat.widget.AppCompatImageButton
                         android:id="@+id/btnBack"
                         android:layout_width="52dp"
                         android:layout_height="match_parent"
@@ -55,7 +55,7 @@
                         android:textSize="18dp"
                         android:text="Soạn thư" />
 
-                    <android.support.v7.widget.AppCompatImageButton
+                    <androidx.appcompat.widget.AppCompatImageButton
                         android:id="@+id/btnAttachment"
                         android:layout_width="52dp"
                         android:layout_height="match_parent"
@@ -64,7 +64,7 @@
                         android:background="@drawable/selector_light_theme"
                         android:src="@drawable/ic_attachment_black_24dp" />
 
-                    <android.support.v7.widget.AppCompatImageButton
+                    <androidx.appcompat.widget.AppCompatImageButton
                         android:id="@+id/btnSend"
                         android:layout_width="52dp"
                         android:layout_height="match_parent"
@@ -74,8 +74,8 @@
                         android:src="@drawable/ic_send_black_24dp" />
 
                 </LinearLayout>
-            </android.support.v7.widget.Toolbar>
-        </android.support.design.widget.AppBarLayout>
+            </androidx.appcompat.widget.Toolbar>
+        </com.google.android.material.appbar.AppBarLayout>
 
 
         <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -83,7 +83,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <android.support.v4.widget.NestedScrollView
+            <androidx.core.widget.NestedScrollView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_above="@+id/toolbar_line">
@@ -130,7 +130,7 @@
                             android:hint="Chủ đề" />
                     </LinearLayout>
 
-                    <android.support.v7.widget.RecyclerView
+                    <androidx.recyclerview.widget.RecyclerView
                         android:id="@+id/rvAttachment"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"/>
@@ -151,7 +151,7 @@
 
                 </LinearLayout>
 
-            </android.support.v4.widget.NestedScrollView>
+            </androidx.core.widget.NestedScrollView>
 
             <View
                 android:id="@+id/toolbar_line"

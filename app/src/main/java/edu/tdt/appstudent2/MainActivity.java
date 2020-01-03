@@ -2,7 +2,7 @@ package edu.tdt.appstudent2;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 
 import edu.tdt.appstudent2.actitities.dangnhap.DangnhapActivity;
 import edu.tdt.appstudent2.actitities.trangchu.TrangchuActivity;

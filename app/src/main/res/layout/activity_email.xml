@@ -6,18 +6,18 @@
     android:layout_height="match_parent"
     tools:context="edu.tdt.appstudent2.actitities.email.EmailActivity">
 
-    <android.support.design.widget.CoordinatorLayout
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:id="@+id/placeSnackBar"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <android.support.design.widget.AppBarLayout
+        <com.google.android.material.appbar.AppBarLayout
             android:id="@+id/appBarLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:elevation="0dp">
 
-            <android.support.v7.widget.Toolbar
+            <androidx.appcompat.widget.Toolbar
                 android:id="@+id/toolbar"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
@@ -35,7 +35,7 @@
                     android:layout_height="match_parent"
                     android:orientation="horizontal">
 
-                    <android.support.v7.widget.AppCompatImageButton
+                    <androidx.appcompat.widget.AppCompatImageButton
                         android:id="@+id/btnBack"
                         android:layout_width="52dp"
                         android:layout_height="match_parent"
@@ -54,7 +54,7 @@
                         android:textSize="18dp"
                         android:text="EMAIL" />
 
-                    <android.support.v7.widget.AppCompatImageButton
+                    <androidx.appcompat.widget.AppCompatImageButton
                         android:id="@+id/btnNoti"
                         android:layout_width="52dp"
                         android:layout_height="match_parent"
@@ -64,7 +64,7 @@
                         android:background="@drawable/selector_light_theme"
                         android:src="@drawable/ic_notifications_off_black_24dp" />
 
-                    <android.support.v7.widget.AppCompatImageButton
+                    <androidx.appcompat.widget.AppCompatImageButton
                         android:id="@+id/btnWeb"
                         android:layout_width="52dp"
                         android:layout_height="match_parent"
@@ -73,16 +73,16 @@
                         android:background="@drawable/selector_light_theme"
                         android:src="@drawable/ic_launch_black_24dp" />
                 </LinearLayout>
-            </android.support.v7.widget.Toolbar>
-        </android.support.design.widget.AppBarLayout>
+            </androidx.appcompat.widget.Toolbar>
+        </com.google.android.material.appbar.AppBarLayout>
 
-        <android.support.v4.widget.SwipeRefreshLayout
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
             android:id="@+id/swipeContainer"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
-            <android.support.v4.widget.NestedScrollView
+            <androidx.core.widget.NestedScrollView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
@@ -91,7 +91,7 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
 
-                    <android.support.v7.widget.RecyclerView
+                    <androidx.recyclerview.widget.RecyclerView
                         android:id="@+id/recyclerview"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content" />
@@ -130,8 +130,8 @@
 
                 </LinearLayout>
 
-            </android.support.v4.widget.NestedScrollView>
-        </android.support.v4.widget.SwipeRefreshLayout>
+            </androidx.core.widget.NestedScrollView>
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
 
         <com.github.clans.fab.FloatingActionButton
             android:id="@+id/fabNewMail"
@@ -146,5 +146,5 @@
             app:fab_colorPressed="@color/white"
             app:fab_colorRipple="@color/colorDivider"/>
 
-    </android.support.design.widget.CoordinatorLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
 </RelativeLayout>

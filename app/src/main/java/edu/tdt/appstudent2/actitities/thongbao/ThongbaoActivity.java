@@ -2,12 +2,12 @@ package edu.tdt.appstudent2.actitities.thongbao;
 
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.view.ViewPager;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.AppCompatImageButton;
-import android.support.v7.widget.Toolbar;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.viewpager.widget.ViewPager;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.AppCompatImageButton;
+import androidx.appcompat.widget.Toolbar;
 import android.view.View;
 import android.widget.Toast;
 
@@ -33,7 +33,6 @@ import edu.tdt.appstudent2.models.User;
 import edu.tdt.appstudent2.models.thongbao.DonviItem;
 import edu.tdt.appstudent2.models.thongbao.ThongbaoCache;
 import edu.tdt.appstudent2.models.thongbao.ThongbaoItem;
-import edu.tdt.appstudent2.service.CheckEmailService;
 import edu.tdt.appstudent2.service.CheckNewsService;
 import edu.tdt.appstudent2.service.ServiceUtils;
 import edu.tdt.appstudent2.utils.Tag;
