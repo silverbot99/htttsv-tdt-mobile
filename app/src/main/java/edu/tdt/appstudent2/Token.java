@@ -21,9 +21,9 @@ public class Token {
         <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string"/>
     */
 
-    private static final String NAMESPACE = "http://tempuri.org/";
+    private static final String NAMESPACE = "https://web.archive.org/web/20090304024056/http://tempuri.org/";
     private static final String URL = "http://sso.tdt.edu.vn/AuthService.asmx";
-    private static final String SOAP_ACTION = "http://tempuri.org/Authenticate";
+    private static final String SOAP_ACTION = "https://web.archive.org/web/20090304024056/http://tempuri.org/Authenticate";
     private static final String METHOD_NAME = "Authenticate";
 
 
